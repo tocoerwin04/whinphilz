@@ -7,6 +7,8 @@ public class Project22 {
         Scanner scanner = new Scanner(System.in);
 
         // Prompt user for input
+        System.out.print("Enter your name: ");
+        String scanner = scanner.nextLine();
         System.out.print("Enter an angle in degrees: ");
         double angle = scanner.nextDouble();
 
