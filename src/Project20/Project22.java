@@ -6,11 +6,11 @@ public class Project22 {
         // Scanner
         Scanner scanner = new Scanner(System.in);
 
-        // Input
+        // Prompt user for input
         System.out.print("Enter an angle in degrees: ");
         double angle = scanner.nextDouble();
 
-        // Condition output
+        // Conditional output
         if (angle > 0 && angle < 90) {
             System.out.println("The angle is: Acute");
         } else if (angle == 90) {
