@@ -1,3 +1,4 @@
+
 import java.util.Scanner;
 
 public class Project25 {
@@ -6,6 +7,12 @@ public class Project25 {
         Scanner scanner = new Scanner(System.in);
 
         // User input
+        System.out.print("Enter your name: ");
+        String name = scanner.nextLine();
+        System.out.print("You may now start the Division Calculator, " + name + "!");
+        System.out.println();
+        System.out.println();
+        
         System.out.print("Enter the dividend: ");
         int dividend = scanner.nextInt();
 
