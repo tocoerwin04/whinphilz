@@ -8,11 +8,10 @@ public class Project20{
         // Scanner
         Scanner scanner = new Scanner(System.in);
 
-        // Prompt user for name input
+        // Prompt user for input
         System.out.print("Enter your name: ");
         String name = scanner.nextLine();
 
-        // User for input
         System.out.print("Enter hourly rate: ");
         double rate = scanner.nextDouble();
 
