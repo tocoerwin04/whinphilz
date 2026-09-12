@@ -3,6 +3,11 @@ import java.util.Scanner;
 public class Project21 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+
+        // Prompt user for name input
+        System.out.print("Enter your name: ");
+        String name = scanner.nextLine();
+        
         //input
         System.out.print("Enter first number: ");
         double num1 = scanner.nextDouble();
