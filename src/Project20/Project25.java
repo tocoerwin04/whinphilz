@@ -6,10 +6,10 @@ public class Project25 {
         Scanner scanner = new Scanner(System.in);
 
         // User input
-        System.out.print("Enter the dividend (number to divide): ");
+        System.out.print("Enter the dividend: ");
         int dividend = scanner.nextInt();
 
-        System.out.print("Enter the divisor (number to divide by): ");
+        System.out.print("Enter the divisor: ");
         int divisor = scanner.nextInt();
 
         // If else statement
@@ -28,7 +28,7 @@ public class Project25 {
             int remainder = tempDividend; // Whatever is left over is the remainder
 
             // Output
-            System.out.println("\n--- Division Results ---");
+            System.out.println("\n--- Result ---");
             System.out.printf("%d / %d = %d%n", dividend, divisor, quotient);
             System.out.printf("Remainder: %d%n", remainder);
         }
