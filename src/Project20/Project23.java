@@ -7,7 +7,7 @@ public class Project23 {
         Scanner scanner = new Scanner(System.in);
 
         //Promt user to name input
-        System.out.println("Enter your Name: ");
+        System.out.print("Enter your Name: ");
         String name = scanner.nextline();
 
         // User input
