@@ -6,14 +6,14 @@ public class Project23 {
         // Scanner
         Scanner scanner = new Scanner(System.in);
 
-        //Promt user to name input
+        //Promt user to input
         System.out.print("Enter your Name: ");
-        String name = scanner.nextline();
-
-        // User input
+        String name = scanner.nextLine();
+        
         System.out.print("Enter a number to generate its multiplication table: ");
         int num = scanner.nextInt();
 
+        //Output
         System.out.println("\nMultiplication Table for " + num + ":");
         System.out.println("-----------------------------");
 
